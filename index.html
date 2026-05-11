@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission Hacker Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="login-card">
+      <a href="#" class="back-link" aria-label="Go back">
+        <svg viewBox="0 0 24 24" class="icon icon-arrow"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </a>
+
+      <div class="brand-ring">
+        <div class="brand-circle">
+          <img src="logo.png" alt="Mission Hackers Bangladesh logo" class="brand-logo" />
+        </div>
+      </div>
+
+      <div class="login-copy">
+        <h1>Welcome Back</h1>
+        <p>Please sign in to continue learning.</p>
+      </div>
+
+      <form class="login-form" action="#" method="post">
+        <label class="input-label">
+          <span class="label-text">Email Address</span>
+          <div class="input-wrapper">
+            <span class="input-icon input-icon-email">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </span>
+            <input type="email" name="email" placeholder="Email Address" required />
+          </div>
+        </label>
+
+        <label class="input-label">
+          <span class="label-text">Password</span>
+          <div class="input-wrapper">
+            <span class="input-icon input-icon-password">
+              <svg viewBox="0 0 24 24"><path d="M12 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6-7h-1V7a5 5 0 0 0-10 0v3H6c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2zm-8-3a3 3 0 0 1 6 0v3H10V7zm8 13H6v-8h12v8z"/></svg>
+            </span>
+            <input type="password" name="password" placeholder="Password" required />
+            <button type="button" class="password-toggle" aria-label="Toggle password visibility">
+              <svg viewBox="0 0 24 24"><path d="M12 6a9.77 9.77 0 0 1 8.46 5 9.77 9.77 0 0 1-16.92 0A9.77 9.77 0 0 1 12 6m0-2C7.03 4 2.73 7.11 1 12c1.73 4.89 6.03 8 11 8s9.27-3.11 11-8c-1.73-4.89-6.03-8-11-8zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+            </button>
+          </div>
+        </label>
+
+        <div class="form-footer">
+          <a href="#" class="forgot-link">Forgot Password?</a>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Sign In</button>
+      </form>
+
+      <div class="divider">
+        <span>OR</span>
+      </div>
+
+      <button class="btn btn-secondary" type="button">
+        <span class="google-logo" aria-hidden="true">
+          <svg viewBox="0 0 533.5 544.3"><path fill="#4285f4" d="M533.5 278.4c0-17.7-1.6-35-4.7-51.7H272v98h146.9c-6.3 34-25.5 62.9-54.5 82.1v68.2h88.2c51.6-47.5 81.9-117.5 81.9-196.6z"/><path fill="#34a853" d="M272 544.3c73.6 0 135.4-24.4 180.6-66.4l-88.2-68.2c-24.6 16.5-56 26.2-92.4 26.2-71 0-131.4-47.8-153-112.3H31.7v70.5c45.2 89.2 138.5 150.2 240.3 150.2z"/><path fill="#fbbc04" d="M119 324.5c-10.8-31.8-10.8-65.9 0-97.7V156.3H31.7c-38.8 76.7-38.8 167.6 0 244.3L119 324.5z"/><path fill="#ea4335" d="M272 107.7c39.8 0 75.7 13.7 103.9 40.6l78-78C411 24.8 345.4 0 272 0 170.2 0 77 60.9 31.7 150.1l87.3 70.1C140.6 155.5 201 107.7 272 107.7z"/></svg>
+        </span>
+        <span>Sign in with Google</span>
+      </button>
+
+      <div class="signup-line">
+        <span>Don't have an account?</span>
+        <a href="#">Sign Up</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
